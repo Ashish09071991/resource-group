@@ -6,3 +6,8 @@ resource "azurerm_storage_account" "ashish" {
     account_replication_type = "LRS"
   
 }
+
+resource "azurerm_container_name""blobbhai" {
+name = "blobbhai"
+storage_account_name = "stiretomato"
+key = "blobbhai.tfstate"
