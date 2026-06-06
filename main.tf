@@ -11,3 +11,4 @@ resource "azurerm_container_name""blobbhai" {
 name = "blobbhai"
 storage_account_name = "stiretomato"
 key = "blobbhai.tfstate"
+}
